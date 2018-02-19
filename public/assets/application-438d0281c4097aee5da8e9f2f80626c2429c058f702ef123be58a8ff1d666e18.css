@@ -1,0 +1,242 @@
+/* line 1, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom.scss */
+body {
+  background: url(/assets/Beautiful-Blurred-7c48bddf483f69a7e75801ceb0d537cbd8a5bb8ae87432b75d4aab3261b4c306.jpg);
+}
+
+/* line 5, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom.scss */
+li {
+  list-style-type: none;
+}
+
+/* line 9, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom.scss */
+hr {
+  color: red;
+}
+
+/* line 13, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom.scss */
+.field {
+  width: 200px;
+}
+
+/* Bloc d'inscription */
+/* line 19, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom.scss */
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 610px;
+  margin-top: 100px;
+}
+
+/* partie gauche */
+/* line 29, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom.scss */
+#alpha {
+  border-radius: 10px 0px 0px 10px;
+  background-color: #428ee4;
+  padding-top: 150px;
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+/* line 37, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom.scss */
+#alpha li {
+  color: white;
+}
+
+/* line 42, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom.scss */
+.title {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+}
+
+/* line 49, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom.scss */
+.subtitle {
+  font-size: 20px;
+  color: white;
+}
+
+/* partie droite */
+/* line 56, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom.scss */
+#omega {
+  border-radius: 0px 10px 10px 0px;
+  background-color: white;
+  padding-top: 150px;
+  padding-left: 20px;
+  padding-right: 200px;
+}
+
+/*
+Flaticon icon font: Flaticon
+Creation date: 19/02/2018 13:21
+*/
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"), url("./Flaticon.woff") format("woff"), url("./Flaticon.ttf") format("truetype"), url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+/* line 87, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom.scss */
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-size: 20px;
+  font-style: normal;
+  margin-left: 20px;
+}
+
+/* line 95, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom.scss */
+.flaticon-cloud:before {
+  content: "\f100";
+}
+
+/* line 96, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom.scss */
+.flaticon-university-graduate-hat:before {
+  content: "\f101";
+}
+
+/* line 97, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom.scss */
+.flaticon-file:before {
+  content: "\f102";
+}
+
+/* line 98, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom.scss */
+.flaticon-locked-padlock:before {
+  content: "\f103";
+}
+
+/* line 99, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom.scss */
+.flaticon-user-silhouette:before {
+  content: "\f104";
+}
+/* line 1, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom0.scss */
+body {
+  background-image: url("Beautiful-Blurred.jpg");
+}
+
+/* line 5, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom0.scss */
+h1, h2 {
+  color: white;
+}
+
+/* line 9, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom0.scss */
+li {
+  list-style-type: none;
+}
+
+/* Bloc d'inscription */
+/* line 15, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom0.scss */
+#block1 {
+  position: relative;
+  width: 950px;
+  margin: auto;
+  float: left;
+}
+
+/* partie gauche */
+/* line 26, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom0.scss */
+#block1a {
+  position: absolute;
+  border-radius: 10px 0px 0px 10px;
+  background-color: #428ee4;
+  float: left;
+  width: 50%;
+  height: 610px;
+  padding-top: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 38, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom0.scss */
+#block1a li {
+  color: white;
+}
+
+/* partie droite */
+/* line 44, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom0.scss */
+#block1b {
+  position: relative;
+  border-radius: 0px 10px 10px 0px;
+  background-color: white;
+  float: left;
+  width: 50%;
+  height: 610px;
+  padding-top: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*
+Flaticon icon font: Flaticon
+Creation date: 19/02/2018 13:21
+*/
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"), url("./Flaticon.woff") format("woff"), url("./Flaticon.ttf") format("truetype"), url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+/* line 80, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom0.scss */
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-size: 20px;
+  font-style: normal;
+  margin-left: 20px;
+}
+
+/* line 88, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom0.scss */
+.flaticon-cloud:before {
+  content: "\f100";
+}
+
+/* line 89, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom0.scss */
+.flaticon-university-graduate-hat:before {
+  content: "\f101";
+}
+
+/* line 90, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom0.scss */
+.flaticon-file:before {
+  content: "\f102";
+}
+
+/* line 91, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom0.scss */
+.flaticon-locked-padlock:before {
+  content: "\f103";
+}
+
+/* line 92, /home/simwyck/Bureau/THP/J31/dribble-like/app/assets/stylesheets/custom0.scss */
+.flaticon-user-silhouette:before {
+  content: "\f104";
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
