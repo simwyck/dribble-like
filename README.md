@@ -2,7 +2,9 @@
 
 Heroku: https://j31-dribble-swy.herokuapp.com/
 
-WTF! Pour l'instant, tout fonctionne à peu près, sauf l'image de fond qui fonctionne en local mais pas usr Heroku.
+Tout fonctionne en local et sur Heroku.
+
+Me contacter pour toute question.
 
 ---
 Slack: @simwyck
