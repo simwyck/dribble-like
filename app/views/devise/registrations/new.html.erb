@@ -3,11 +3,9 @@
     <h1 class="title">uniform</h1>
     <h2 class="subtitle">L'inscription devient plus simple</h2>
     <hr />
-    <ul>
-      <li><span class="flaticon-file"></span> Un seul formulaire pour toutes les écoles</li>
-      <li><span class="flaticon-university-graduate-hat"></span> Gérez facilement vos candidatures</li>
-      <li><span class="flaticon-cloud"></span> Stockez vos données scolaires</li>
-    </ul>
+    <p><span class="flaticon-file"></span> Un seul formulaire pour toutes les écoles</p>
+    <p><span class="flaticon-university-graduate-hat"></span> Gérez facilement vos candidatures</p>
+    <p><span class="flaticon-cloud"></span> Stockez vos données scolaires</p>
   </div>
   <div id="omega">
     <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
@@ -29,7 +27,7 @@
             <span class="input-group-text" id="basic-addon1"><span class="flaticon-locked-padlock"></span></span>
         </div>
         <div class="field">
-          <%= f.password_field :password, autocomplete: "off", placeholder: "Mot de passe", class: "form-control" %>
+          <%= f.password_field :password, autocomplete: "off", placeholder: "Mot de passe*", class: "form-control" %>
         </div>
       </div>
 
@@ -38,7 +36,7 @@
             <span class="input-group-text" id="basic-addon1"><span class="flaticon-locked-padlock"></span></span>
         </div>
         <div class="field">
-          <%= f.password_field :password_confirmation, autocomplete: "off", placeholder: "Confirmation Mdp", class: "form-control" %>
+          <%= f.password_field :password_confirmation, autocomplete: "off", placeholder: "Confirmation Mdp*", class: "form-control" %>
         </div>
       </div>
 

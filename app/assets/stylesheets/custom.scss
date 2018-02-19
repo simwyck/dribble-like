@@ -1,9 +1,11 @@
-li {
-  list-style-type: none;
-}
-
 body {
   background-image: image-url('Beautiful-Blurred.jpg');
+}
+
+hr {
+  background-color: lightgreen;
+  width: 27%;
+  margin-left: 0;
 }
 
 /* Bloc d'inscription */
@@ -26,8 +28,9 @@ body {
   padding-right: 50px;
 }
 
-#alpha li {
+#alpha p {
   color: white;
+  margin-left: 0;
 }
 
 // Parce que je n'arrive pas à changer la couleur du texte directement dans les h1 et h2.
