@@ -2,12 +2,16 @@ body {
   background-image: url("Beautiful-Blurred.jpg");
 }
 
-h1, h2 {
-  color: white;
-}
-
 li {
   list-style-type: none;
+}
+
+hr {
+  color: red;
+}
+
+.field {
+  width: 200px;
 }
 
 /* Bloc d'inscription */
@@ -17,6 +21,7 @@ li {
   flex-flow: row wrap;
   justify-content: center;
   height: 610px;
+  margin-top: 100px;
 }
 
 /* partie gauche */
@@ -26,10 +31,23 @@ li {
   background-color: #428ee4;
   padding-top: 150px;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 50px;
 }
 
 #alpha li {
+  color: white;
+}
+
+// Parce que je n'arrive pas à changer la couleur du texte directement dans les h1 et h2.
+.title {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+}
+
+.subtitle {
+  font-size: 20px;
   color: white;
 }
 
