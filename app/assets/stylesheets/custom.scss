@@ -2,38 +2,45 @@ body {
   background-image: url("Beautiful-Blurred.jpg");
 }
 
+h1, h2 {
+  color: white;
+}
+
 li {
   list-style-type: none;
 }
 
 /* Bloc d'inscription */
 
-#signup-block {
-  //background-color: lightblue;
-  width: 950px;
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
   height: 610px;
-  margin: auto;
+}
+
+/* partie gauche */
+
+#alpha {
+  border-radius: 10px 0px 0px 10px;
+  background-color: #428ee4;
   padding-top: 150px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-/* partie gauche */
-
-#pgauche {
-  background-color: blue;
-  float:left;
-  width: 50%;
-  height: 610px;
+#alpha li {
+  color: white;
 }
 
 /* partie droite */
 
-#pdroite {
+#omega {
+  border-radius: 0px 10px 10px 0px;
   background-color: white;
-  float:right;
-  width: 50%;
-  height: 610px;
+  padding-top: 150px;
+  padding-left: 20px;
+  padding-right: 200px;
 }
 
 /*
