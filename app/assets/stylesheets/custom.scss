@@ -1,17 +1,10 @@
-body {
-  background-image: image-url('Beautiful-Blurred.jpg');
-}
-
 li {
   list-style-type: none;
 }
 
-hr {
-  color: red;
-}
-
-.field {
-  width: 200px;
+// Image de fond uniquement pour page d'inscription
+#background-img {
+  background-image: image-url('Beautiful-Blurred.jpg');
 }
 
 /* Bloc d'inscription */

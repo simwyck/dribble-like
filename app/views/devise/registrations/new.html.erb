@@ -1,56 +1,58 @@
-<div class="flex-container">
-  <div id="alpha">
-    <h1 class="title">uniform</h1>
-    <h2 class="subtitle">L'inscription devient plus simple</h2>
-    <hr />
-    <ul>
-      <li><span class="flaticon-file"></span> Un seul formulaire pour toutes les écoles</li>
-      <li><span class="flaticon-university-graduate-hat"></span> Gérez facilement vos candidatures</li>
-      <li><span class="flaticon-cloud"></span> Stockez vos données scolaires</li>
-    </ul>
-  </div>
-  <div id="omega">
-    <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-      <%= devise_error_messages! %>
+<div id="background-img">
+  <div class="flex-container">
+    <div id="alpha">
+      <h1 class="title">uniform</h1>
+      <h2 class="subtitle">L'inscription devient plus simple</h2>
+      <hr />
+      <ul>
+        <li><span class="flaticon-file"></span> Un seul formulaire pour toutes les écoles</li>
+        <li><span class="flaticon-university-graduate-hat"></span> Gérez facilement vos candidatures</li>
+        <li><span class="flaticon-cloud"></span> Stockez vos données scolaires</li>
+      </ul>
+    </div>
+    <div id="omega">
+      <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+        <%= devise_error_messages! %>
 
-      <p>Choisissez vos identifiants</p>
+        <p>Choisissez vos identifiants</p>
 
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-            <span class="input-group-text" id="basic-addon1"><span class="flaticon-user-silhouette"></span></span>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1"><span class="flaticon-user-silhouette"></span></span>
+          </div>
+          <div class="field">
+            <%= f.email_field :email, autofocus: true, autocomplete: "email", placeholder: "Adresse email", class: "form-control" %>
+          </div>
         </div>
-        <div class="field">
-          <%= f.email_field :email, autofocus: true, autocomplete: "email", placeholder: "Adresse email", class: "form-control" %>
-        </div>
-      </div>
 
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-            <span class="input-group-text" id="basic-addon1"><span class="flaticon-locked-padlock"></span></span>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1"><span class="flaticon-locked-padlock"></span></span>
+          </div>
+          <div class="field">
+            <%= f.password_field :password, autocomplete: "off", placeholder: "Mot de passe", class: "form-control" %>
+          </div>
         </div>
-        <div class="field">
-          <%= f.password_field :password, autocomplete: "off", placeholder: "Mot de passe", class: "form-control" %>
+
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1"><span class="flaticon-locked-padlock"></span></span>
+          </div>
+          <div class="field">
+            <%= f.password_field :password_confirmation, autocomplete: "off", placeholder: "Confirmation Mdp", class: "form-control" %>
+          </div>
         </div>
-      </div>
 
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-            <span class="input-group-text" id="basic-addon1"><span class="flaticon-locked-padlock"></span></span>
+        <p><% if @minimum_password_length %>
+        <em>* <%= @minimum_password_length %> caratères minimum</em>
+        <% end %></p>
+
+        <div class="actions">
+          <%= f.submit "Inscription", class: "btn btn-primary" %>
         </div>
-        <div class="field">
-          <%= f.password_field :password_confirmation, autocomplete: "off", placeholder: "Confirmation Mdp", class: "form-control" %>
-        </div>
-      </div>
+      <% end %>
 
-      <p><% if @minimum_password_length %>
-      <em>* <%= @minimum_password_length %> caratères minimum</em>
-      <% end %></p>
-
-      <div class="actions">
-        <%= f.submit "Inscription", class: "btn btn-primary" %>
-      </div>
-    <% end %>
-
-    <%= render "devise/shared/links" %>
+      <%= render "devise/shared/links" %>
+    </div>
   </div>
 </div>
